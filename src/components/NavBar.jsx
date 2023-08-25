@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./cartWidget";
 
 export default function NavBar() {
     return (
@@ -16,7 +17,11 @@ export default function NavBar() {
           <li>
             <a href="." class="enlaces">Contacto</a>
           </li>
+          <li>
+            <CartWidget />
+          </li>
         </ul>
+        
       </nav>
     )
 }
